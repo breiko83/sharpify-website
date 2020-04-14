@@ -1,21 +1,25 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Services from "../components/services"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+export default () => (
+  <div>
+    <SEO title="Sharpify" />
+    <div className="hero">
+      <div className="logo">
+        <div className="reveal-text">Sharpify</div>
+      </div>
+      <a className="scroll" href="#services"><span></span>Scroll</a>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+    <Services />
+    <footer>
+      <address>
+        <strong>Sharpify LTD</strong><br />
+        Made in Bermondsey ♥️ London | Company reg. number 9391984<br/>        
+      </address>
+      <a href="#" data-toggle="modal" data-target="#privacyModal">Terms of Service and Privacy Policy</a> | &copy; 2020 Sharpify Ltd
+    </footer>
+  </div>
 )
-
-export default IndexPage
