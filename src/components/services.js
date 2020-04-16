@@ -25,7 +25,7 @@ export default () => (
                 photo {
                   childImageSharp {
                     fluid(maxWidth: 400) {
-                      ...GatsbyImageSharpFluid
+                      ...GatsbyImageSharpFluid_withWebp
                     }
                   }
                 }
