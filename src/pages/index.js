@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
 
 import SEO from "../components/seo"
 import Services from "../components/services"
@@ -30,10 +29,10 @@ export default () => {
 
   return (
     <div> 
-      <SEO title="Sharpify" />
+      <SEO title="Sharpify" url="/" />
       <div className="hero">
         <div className="logo">
-          <div className="reveal-text">Sharpify</div>
+          <h1 className="reveal-text">Sharpify</h1>
         </div>
         {!scrolled &&
           <a className="scroll" href="#services"><span></span>Scroll</a>

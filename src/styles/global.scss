@@ -119,6 +119,8 @@ body {
 
 .reveal-text {
   align-self: center;
+  font-weight: 500;
+  font-size: 72px;
 }
 
 // logo animation
@@ -278,7 +280,7 @@ body {
 
 .services {  
   background-color: $white-lighter;
-  height: 100vh;
+  padding: 100px 0;
   text-align: center;
 
   .services-list {
@@ -297,7 +299,7 @@ body {
 }
 
 .partners {    
-  height: 100vh;
+  padding: 100px 0;
   text-align: center;
 
   .partners-list {
@@ -370,6 +372,27 @@ body {
 
   }
 }
+
+.container {  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;  
+
+  .message {
+    flex: 1;
+    padding: 50px;   
+
+    h1 {      
+      color: $green;         
+    }
+  }
+
+  .terms {
+    text-align: justify;
+  }
+}
+
 
 footer {
   text-align: center;

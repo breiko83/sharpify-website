@@ -3,6 +3,7 @@ module.exports = {
     title: `Web Development, Growth Hacking and Consultancy`,
     description: `Development, Growth Hacking and Consultancy`,
     author: `@carloschiesaro`,
+    url: `htts://sharpify.co.uk`
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -38,12 +39,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `sharpify-starter-default`,
+        short_name: `sharpify`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `minimal-ui`,
+        icon: `src/images/icon.png`
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -57,6 +59,14 @@ module.exports = {
         }
       }
     },
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-55073449-8",
+        head: true
+      },
+    },
   ],
 }

@@ -40,7 +40,7 @@ export default () => (
         <h2>Customers & Partners</h2>
         <div className="partners-list">
           {data.allMarkdownRemark.edges.map(({ node }) => (
-            <div className="partner">              
+            <div className="partner" key={node.id}>              
               <Img
                 className="partner-image"
                 fixed={node.frontmatter.photo.childImageSharp.fixed}

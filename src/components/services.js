@@ -40,7 +40,7 @@ export default () => (
         <h2>Services</h2>
         <div className="services-list">
           {data.allMarkdownRemark.edges.map(({ node }) => (
-            <div className="service">
+            <div className="service" key={node.id}>
               <h3>{node.frontmatter.title}</h3>
               <Img
                 className="service-image"

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "gatsby"
 
 export default () => (
   <footer>
@@ -7,6 +7,7 @@ export default () => (
       <strong>Sharpify LTD</strong><br />
         Made in Bermondsey London 🇬🇧 | Company reg. number 9391984<br />
     </address>
-    <a href="#" data-toggle="modal" data-target="#privacyModal">Terms of Service and Privacy Policy</a> | &copy; 2020 Sharpify Ltd
+    <Link to="/terms">Terms of Service and Privacy Policy</Link> | &copy; 2020 Sharpify Ltd
+     
   </footer>
 )
