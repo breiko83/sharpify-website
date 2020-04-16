@@ -14,7 +14,7 @@ export default () => {
         <button className="btn" onClick={handleClick}>Hire Me!</button>
       </div>
       {formVisible &&
-        <form action="/thankyou" data-netlify="true" netlify-honeypot="bot-field" method="POST" name="contact" className="form">
+        <form action="/thankyou" data-netlify="true" netlify-honeypot="bot-field" method="POST" name="contact" className={formVisible ? 'form' : 'form hidden'}>
           <input type="hidden" name="form-name" value="contact" />
           <input type="hidden" name="bot-field" />
           <input name="name" type="text" placeholder="Your name and/or company name" required />
