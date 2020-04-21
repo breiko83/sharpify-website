@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 
 import SEO from "../components/seo"
 import Services from "../components/services"
+import Projects from "../components/projects"
 import Partners from "../components/partners"
 import Footer from "../components/footer"
 import CTA from "../components/cta"
@@ -39,6 +40,7 @@ export default () => {
         }
       </div>
       <Services />
+      <Projects />
       <Partners />
       <CTA />
       <Footer />
