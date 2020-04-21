@@ -53,7 +53,7 @@ export default () => (
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <div className="project" key={node.id}>
               <h3>{node.frontmatter.title}</h3>
-              <a href={node.frontmatter.url} target="_blank">
+              <a href={node.frontmatter.url} target="_blank" rel="noopener noreferrer">
               <Img
                 className="project-image"
                 fixed={node.frontmatter.photo.childImageSharp.fixed}
