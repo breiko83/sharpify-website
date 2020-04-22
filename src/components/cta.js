@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import SocialMedia from "./socialmedia"
 
 export default () => {
 
@@ -22,6 +23,8 @@ export default () => {
         <textarea name="request" placeholder="Add some infos"></textarea>
         <input type="submit" />
       </form>
+      <p>or find me here</p> 
+      <SocialMedia />
     </div>
   )
 }
