@@ -19,6 +19,17 @@ module.exports = {
               withWebp: true
             },
           },
+          {
+            resolve: `gatsby-remark-embedder`,
+            options: {
+              customTransformers: [
+                // Your custom transformers
+              ],
+              services: {
+                // The service-specific options by the name of the service
+              },
+            },
+          },
         ],
       },
     },
@@ -76,5 +87,6 @@ module.exports = {
         head: true
       },
     },
+    `gatsby-plugin-twitter`
   ],
 }

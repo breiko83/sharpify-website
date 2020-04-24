@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 
-import SEO from "../components/seo"
+import Header from "../components/header"
 import Services from "../components/services"
 import Projects from "../components/projects"
 import Partners from "../components/partners"
@@ -30,7 +30,7 @@ export default () => {
 
   return (
     <div> 
-      <SEO title="Sharpify" url="/" />
+      <Header />
       <div className="hero">
         <div className="logo">
           <h1 className="reveal-text">Sharpify</h1>
