@@ -37,7 +37,7 @@ export default () => (
     `}
     render={data => (
       <div className="services">
-        <h2>Services</h2>
+        <h2>I can help you with</h2>
         <div className="services-list">
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <div className="service" key={node.id}>
