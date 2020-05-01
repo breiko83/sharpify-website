@@ -4,6 +4,7 @@ photo: /images/portfolio-abaco-1.png
 order: 1
 technologies:
   - ruby on rails    
+  - mySQL
   - javascript
   - html / css
 gallery:
