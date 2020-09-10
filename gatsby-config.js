@@ -65,18 +65,12 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-web-font-loader`,
       options: {
-        fonts: [
-          {
-            family: `Catamaran`
-          },
-          {
-            family: `Cookie`,
-            variants: [`400`]
-          },
-        ],
-      },
+        google: {
+          families: ['Catamaran', 'Cookie']
+        }
+      }      
     },
     `gatsby-plugin-sass`,
     {
