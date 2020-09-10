@@ -24,7 +24,7 @@ export default () => (
                 name                
                 photo {
                   childImageSharp {
-                    fixed(width: 300) {
+                    fixed(width: 250) {
                       ...GatsbyImageSharpFixed
                     }
                   }

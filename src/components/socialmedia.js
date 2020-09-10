@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
 
@@ -39,10 +39,10 @@ export default () => (
     `}
     render={data => (
       <ul className="socials">
-        <li><a href="https://github.com/breiko83"><Img fixed={data.github.childImageSharp.fixed} /></a></li>
-        <li><a href="https://twitter.com/carloschiesaro"><Img fixed={data.twitter.childImageSharp.fixed} /></a></li>
-        <li><a href="https://www.linkedin.com/in/carlo-schiesaro-39258014/?originalSubdomain=uk"><Img fixed={data.linkedin.childImageSharp.fixed} /></a></li>
-        <li><a href="https://www.instagram.com/breiko/"><Img fixed={data.instagram.childImageSharp.fixed} /></a></li>
+        <li><Link to="https://github.com/breiko83"><Img fixed={data.github.childImageSharp.fixed} /></Link></li>
+        <li><Link to="https://twitter.com/carloschiesaro"><Img fixed={data.twitter.childImageSharp.fixed} /></Link></li>
+        <li><Link to="https://www.linkedin.com/in/carlo-schiesaro-39258014/?originalSubdomain=uk"><Img fixed={data.linkedin.childImageSharp.fixed} /></Link></li>
+        <li><Link to="https://www.instagram.com/breiko/"><Img fixed={data.instagram.childImageSharp.fixed} /></Link></li>
       </ul>
     )}
   />
