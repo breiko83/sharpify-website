@@ -6,9 +6,11 @@ $gray: #979797;
 $white: #fff;
 $white-lighter: #fcfcfc;
 
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Cookie&display=swap');
+
 
 html {
-  font-family: "Catamaran";
+  font-family: "Catamaran", sans-serif;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   width: 100%;
@@ -107,7 +109,7 @@ body {
 .logo {
   display: flex;
   flex: 1;
-  font-family: 'Cookie';
+  font-family: 'Cookie', cursive;
   -webkit-font-smoothing: antialiased;
   font-size: 72px;
   justify-content: center;
