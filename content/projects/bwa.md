@@ -8,5 +8,5 @@ technologies:
   - html / css
 gallery:
   - image: /images/portfolio-bwa-1.png
-url: https://www.blackwaterammo.com/
+url: http://baob2nonme5m7is.blackwaterammo.com/
 ---
