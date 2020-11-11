@@ -7,6 +7,6 @@ technologies:
   - Gatsby
   - Firebase
 gallery:
-  - image: /images/zwift-workout.png
+  - image: /images/zwift-workout-2.png
 url: https://www.zwiftworkout.com/
 ---
