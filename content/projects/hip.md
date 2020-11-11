@@ -1,7 +1,7 @@
 ---
 title: HIP Hotels Website
 photo: /images/portfolio-hip-1.png
-order: 1
+order: 3
 technologies:
   - ruby on rails   
   - MongoDB 

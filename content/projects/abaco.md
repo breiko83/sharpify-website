@@ -1,7 +1,7 @@
 ---
 title: Abaco Viaggi Website
 photo: /images/portfolio-abaco-1.png
-order: 1
+order: 6
 technologies:
   - ruby on rails    
   - mySQL

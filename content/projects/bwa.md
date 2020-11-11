@@ -1,12 +1,12 @@
 ---
-title: Black Water Ammo Website
+title: PBM Ammo Website
 photo: /images/portfolio-bwa-1.png
-order: 1
+order: 5
 technologies:
   - ruby on rails    
   - javascript
   - html / css
 gallery:
   - image: /images/portfolio-bwa-1.png
-url: http://baob2nonme5m7is.blackwaterammo.com/
+url: https://www.pbm-ammo.com/
 ---
